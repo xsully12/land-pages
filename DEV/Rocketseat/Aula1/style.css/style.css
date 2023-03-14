@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --amarelo: #FFC700;
+    --branco: #FFFFFF;
+    --preto: #040101;
+    --cinza: rgba(255, 255, 255, 0.6);
+    --cinza-claro: rgba(255, 255, 255, 0.7);
+
+}
+body{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--branco);
+    background-color: var(--preto);
+    font-family: 'Inter', sans-serif;
+    background: url(../img/background-image.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.conteudo{
+    margin: 13em 0;
+    text-align: center;
+    justify-content: center;
+}
+.conteudo__titulo{
+    font-weight: 700;
+    font-size: 20px;
+}
+.titulo__destaque{
+
+    color: var(--amarelo)
+}
+.conteudo__nome{
+    padding-top: 0.2em;
+    font-size: 70px;
+    font-family: 'Emilys Candy', cursive;
+    color: var(--amarelo);
+    line-height: 1.3em;
+}
+.conteudo__descricao{
+    font-size: 25px;
+    color:var(--cinza-claro);
+    padding-bottom: 0.3em;
+}
+.botoes{
+    padding: 4em 2em;
+    font-weight: 700;
+    font-size: 20px;
+}
+.botoes__ler{
+    padding-right: 2em;
+    color: var(--cinza);
+
+}
+.botoes__play{
+    border: 2px solid var(--amarelo);
+    background-color: var(--amarelo);
+    font-weight: 700;
+    padding: 0.5em 2em;
+    color: var(--preto);
+    text-decoration: none;
+}
