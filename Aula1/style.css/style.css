@@ -66,3 +66,7 @@ body{
     color: var(--preto);
     text-decoration: none;
 }
+.botoes__play:hover{
+    background-color: var(--preto);
+    color: var(--cinza);
+}
