@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Spectral:wght@500;600&display=swap');
+
+:root{
+    --azul: #5EEAD4;
+    --branco: #EBF1FB;
+    --preto: #0B0C0E;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body
+{
+    background: url(img/background-image.png) no-repeat center/cover;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.conteudo__titulo
+{
+    font-family: 'Beth Ellen', cursive;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 64px;
+    padding-bottom: 0.7em;
+}
+.titulo__destaque
+{
+    color: var(--azul);
+
+}
+.conteudo__descricao
+{
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    font-weight: 500;
+    color: var(--branco);
+}
+.botoes
+{
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+.botoes__learn
+{
+    color: var(--branco);
+}
+.botoes__recipes
+{
+    color: var(--preto);
+    padding: 0.8em 2em;
+    background-color: var(--azul);
+    border-radius: 8px;
+    text-decoration: none;
+}
+.botoes__recipes:hover
+{
+    background-color: aqua;
+}
+.botoes__learn:hover{
+    color: var(--azul);
+}
